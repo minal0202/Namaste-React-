@@ -1,25 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-const Header = () => {
-    return (
-        <div className="header">
-            <div className="logoContainer">
-                <img className="logo" src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?size=large" />
-            </div>
-            <div className="links">
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Cart</li>
-                </ul>
-            </div>
-        </div>
-    )
-}
-
-const restaurants = [
+export const restaurants = [
     {
         "info": {
             "id": "323526",
@@ -47,7 +26,7 @@ const restaurants = [
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-27 23:00:00",
+                "nextCloseTime": "2024-03-28 23:00:00",
                 "opened": true
             },
             "badges": {},
@@ -62,7 +41,7 @@ const restaurants = [
             },
             "aggregatedDiscountInfoV3": {
                 "header": "ITEMS",
-                "subHeader": "AT ₹149"
+                "subHeader": "AT ₹179"
             },
             "orderabilityCommunication": {
                 "title": {},
@@ -83,7 +62,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/chinese-wok-chinchwad-pune-323526",
@@ -113,15 +92,15 @@ const restaurants = [
             "avgRatingString": "4.0",
             "totalRatingsString": "100+",
             "sla": {
-                "deliveryTime": 36,
+                "deliveryTime": 33,
                 "lastMileTravel": 3,
                 "serviceability": "SERVICEABLE",
-                "slaString": "35-40 mins",
+                "slaString": "30-35 mins",
                 "lastMileTravelString": "3.0 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-27 23:30:00",
+                "nextCloseTime": "2024-03-28 23:30:00",
                 "opened": true
             },
             "badges": {},
@@ -157,7 +136,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-1st-phase-hinjawadi-pune-611808",
@@ -180,20 +159,20 @@ const restaurants = [
                 "Thalis",
                 "Home Food"
             ],
-            "avgRating": 4.5,
+            "avgRating": 4.4,
             "parentId": "10655",
-            "avgRatingString": "4.5",
+            "avgRatingString": "4.4",
             "totalRatingsString": "500+",
             "sla": {
-                "deliveryTime": 27,
+                "deliveryTime": 24,
                 "lastMileTravel": 4.1,
                 "serviceability": "SERVICEABLE",
-                "slaString": "22-32 mins",
+                "slaString": "19-29 mins",
                 "lastMileTravelString": "4.1 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-28 02:00:00",
+                "nextCloseTime": "2024-03-29 02:00:00",
                 "opened": true
             },
             "badges": {
@@ -226,8 +205,8 @@ const restaurants = [
                 }
             },
             "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "UPTO ₹100"
+                "header": "ITEMS",
+                "subHeader": "AT ₹179"
             },
             "orderabilityCommunication": {
                 "title": {},
@@ -248,7 +227,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/box8-desi-meals-village-marunji-mulshi-road-pune-491971",
@@ -272,15 +251,15 @@ const restaurants = [
             "avgRatingString": "3.9",
             "totalRatingsString": "10+",
             "sla": {
-                "deliveryTime": 47,
+                "deliveryTime": 41,
                 "lastMileTravel": 8.9,
                 "serviceability": "SERVICEABLE",
-                "slaString": "45-50 mins",
+                "slaString": "40-45 mins",
                 "lastMileTravelString": "8.9 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-28 00:00:00",
+                "nextCloseTime": "2024-03-29 00:00:00",
                 "opened": true
             },
             "badges": {},
@@ -316,7 +295,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/beijing-bites-balewadi-pune-454307",
@@ -340,15 +319,15 @@ const restaurants = [
             "parentId": "4001",
             "avgRatingString": "--",
             "sla": {
-                "deliveryTime": 35,
+                "deliveryTime": 33,
                 "lastMileTravel": 6.2,
                 "serviceability": "SERVICEABLE",
-                "slaString": "35-40 mins",
+                "slaString": "30-35 mins",
                 "lastMileTravelString": "6.2 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-27 23:00:00",
+                "nextCloseTime": "2024-03-28 23:00:00",
                 "opened": true
             },
             "badges": {},
@@ -381,7 +360,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/grand-hotel-bhusahe-kalate-nagar-wakad-pune-643473",
@@ -406,7 +385,7 @@ const restaurants = [
             "avgRatingString": "4.0",
             "totalRatingsString": "100+",
             "sla": {
-                "deliveryTime": 38,
+                "deliveryTime": 36,
                 "lastMileTravel": 6.6,
                 "serviceability": "SERVICEABLE",
                 "slaString": "35-40 mins",
@@ -414,7 +393,7 @@ const restaurants = [
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-28 01:00:00",
+                "nextCloseTime": "2024-03-29 01:00:00",
                 "opened": true
             },
             "badges": {},
@@ -450,78 +429,10 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/chicago-pizza-1st-phase-wakad-pune-650989",
-            "text": "RESTAURANT_MENU",
-            "type": "WEBLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-        "info": {
-            "id": "191520",
-            "name": "Monginis",
-            "cloudinaryImageId": "wkn8yivpfz1apw45ie8t",
-            "locality": "Vishal Nagar",
-            "areaName": "Wakad",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-                "Bakery",
-                "Desserts",
-                "Snacks"
-            ],
-            "avgRating": 4.4,
-            "parentId": "5007",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "100+",
-            "sla": {
-                "deliveryTime": 32,
-                "lastMileTravel": 7.8,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "7.8 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-03-27 23:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "aggregatedDiscountInfoV2": {},
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "orderabilityCommunication": {
-                "title": {},
-                "subTitle": {},
-                "message": {},
-                "customIcon": {}
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
-        },
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/monginis-vishal-nagar-wakad-pune-191520",
             "text": "RESTAURANT_MENU",
             "type": "WEBLINK"
         },
@@ -543,7 +454,7 @@ const restaurants = [
             "avgRatingString": "4.0",
             "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 32,
+                "deliveryTime": 30,
                 "lastMileTravel": 3,
                 "serviceability": "SERVICEABLE",
                 "slaString": "30-35 mins",
@@ -551,7 +462,7 @@ const restaurants = [
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-28 01:00:00",
+                "nextCloseTime": "2024-03-29 01:00:00",
                 "opened": true
             },
             "badges": {
@@ -603,7 +514,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/pizza-hut-global-highstreet-mall-hinjawadi-pune-14780",
@@ -632,15 +543,15 @@ const restaurants = [
             "avgRatingString": "3.9",
             "totalRatingsString": "10K+",
             "sla": {
-                "deliveryTime": 34,
+                "deliveryTime": 29,
                 "lastMileTravel": 4,
                 "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
+                "slaString": "25-30 mins",
                 "lastMileTravelString": "4.0 km",
                 "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "nextCloseTime": "2024-03-27 23:59:00",
+                "nextCloseTime": "2024-03-28 23:59:00",
                 "opened": true
             },
             "badges": {},
@@ -676,7 +587,7 @@ const restaurants = [
             "restaurantOfferPresentationInfo": {}
         },
         "analytics": {
-            "context": "seo-data-cb56b06a-f184-4a49-ac67-5fb261756b90"
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
         },
         "cta": {
             "link": "https://www.swiggy.com/restaurants/subway-kailash-hotel-tathawade-pune-36014",
@@ -684,42 +595,94 @@ const restaurants = [
             "type": "WEBLINK"
         },
         "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    }
-];
-
-const RestaurantCard = ({ restaurant }) => {
-    const { name, cuisines, cloudinaryImageId, avgRating, costForTwo } = restaurant?.info;
-    return (
-        <div className="restaurant-card" style={{ background: "#f0f0f0" }}>
-            <img className="restaurant-logo" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} />
-            <h3>{name}</h3>
-            <h4>{cuisines.join(", ")}</h4>
-            <h4>{avgRating} stars</h4>
-            <h4>₹{costForTwo}</h4>
-            <h4>{restaurant?.info?.sla?.deliveryTime} Mins</h4>
-        </div>
-    )
-}
-
-const Body = () => {
-    return (
-        <div className="body">
-            <div className="search">Search</div>
-            <div className="restaurant-container">
-                {
-                    restaurants.map((restaurant) => <RestaurantCard key={restaurant.info.id} restaurant={restaurant} />)
+    },
+    {
+        "info": {
+            "id": "752535",
+            "name": "KFC",
+            "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+            "locality": "Dattwadi",
+            "areaName": "Puna wale",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Biryani",
+                "American",
+                "Snacks",
+                "Fast Food"
+            ],
+            "avgRating": 4.1,
+            "parentId": "547",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-03-29 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Burger.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
-            </div>
-        </div>
-    )
-}
-
-const AppComponent = () => {
-    return (
-        <div className="application"><Header /><Body /></div>
-    )
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<AppComponent />);
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹179"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-0c70281b-0e51-4332-b3e8-c93f8b5bef86"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/kfc-dattwadi-puna-wale-pune-752535",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+],

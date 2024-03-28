@@ -43,3 +43,7 @@
 .restaurant-card:hover {
     border: 1px solid black;
 }
+
+.top-rated-restaurants {
+    margin: 10px;
+}
