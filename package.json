@@ -4,8 +4,8 @@
   "description": "Namste react learnings",
   "main": "index.js",
   "scripts": {
-    "start": "parcel /Users/minal/OneDrive/Desktop/NamsteReact/Namaste-React-/Episode1/index.html",
-    "build": "parcel build /Users/minal/OneDrive/Desktop/NamsteReact/Namaste-React-/Episode1/index.html",
+    "start": "parcel /Users/minal/OneDrive/Desktop/NamsteReact/Namaste-React-/SwiggyClone/index.html",
+    "build": "parcel build /Users/minal/OneDrive/Desktop/NamsteReact/Namaste-React-/SwiggyClone/index.html",
     "test": "jest"
   },
   "repository": {
