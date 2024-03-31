@@ -44,6 +44,26 @@
     border: 1px solid black;
 }
 
-.top-rated-restaurants {
+.shimmer-card {
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loginLogoutBtn {
+    margin: 30px;
+    cursor: pointer;
+    width: 60px;
+    padding: 5px;
+}
+
+.filters {
+    display: flex;
     margin: 10px;
 }
